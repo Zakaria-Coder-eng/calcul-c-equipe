@@ -1,4 +1,9 @@
+
 #include <stdio.h>
+float moyenne(int a, int b)
+{
+    return ((float)(a + b) / 2);
+}
 int produit(int a, int b)
 {
   return a * b;
